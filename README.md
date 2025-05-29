@@ -43,3 +43,42 @@ This project aims to:
 ---
 
 Created for educational and demonstration purposes.
+
+
+
+### 3. css(3).html
+📄 Description
+This project creates a static 8x8 chessboard using only HTML and CSS. Each square is represented by a <div> element, styled using Flexbox to create a grid layout. Two classes (.pink and .black) are used to alternate the square colors.
+
+🎯 Purpose
+Demonstrate how to use display: flex and flex-wrap: wrap to create a grid.
+
+Show how to manually construct a checkerboard pattern using alternating colored <div>s.
+
+Practice applying CSS styling for layout and visual design.
+
+⚙️ Technologies Used
+HTML5
+
+CSS3 (Flexbox)
+
+📐 Key Concepts
+Flexbox Layout: The .chess container uses display: flex and flex-wrap: wrap to wrap 64 squares (8 rows × 8 columns).
+
+Square Styling: Each square is 50×50px and styled using .pink or .black classes.
+
+Alternating Pattern: Rows are manually alternated to mimic a real chessboard.
+
+🛠️ How to Use
+Open the HTML file in any modern browser.
+
+You will see an 8×8 chessboard with alternating black and pink squares.
+
+🔁 Note
+To maintain the correct checkerboard pattern:
+
+Even rows should start with .pink
+
+Odd rows should start with .black
+
+This must be manually adjusted in the HTML code if any changes are made.
